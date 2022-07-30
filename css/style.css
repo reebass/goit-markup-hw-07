@@ -121,9 +121,8 @@ p {
 .card-set {
   display: flex;
   gap: 30px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
 }
 
 .visually-hidden {
@@ -658,6 +657,10 @@ p {
 
 /* Clients section */
 
+.clients__list {
+  justify-content: center;
+}
+
 .clients__link {
   display: flex;
   align-items: center;
@@ -816,10 +819,6 @@ p {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
-
-.products {
-  flex-wrap: wrap;
 }
 
 .products__link {
